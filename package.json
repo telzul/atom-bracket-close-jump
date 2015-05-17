@@ -1,0 +1,18 @@
+{
+  "name": "bracket-close-jump",
+  "main": "./lib/bracket-close-jump",
+  "version": "0.0.0",
+  "description": "Moves the cursor behind the closing bracket next to it",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "bracket-close-jump:trigger"
+  },
+  "repository": "https://github.com/telzul/atom-bracket-close-jump",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

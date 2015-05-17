@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'bracket-close-jump'
+      'submenu': [
+        {
+          'label': 'Jump behind bracket'
+          'command': 'bracket-close-jump:trigger'
+        }
+      ]
+    ]
+  }
+]
