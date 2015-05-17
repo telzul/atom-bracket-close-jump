@@ -1,7 +1,7 @@
 {
   "name": "bracket-close-jump",
   "main": "./lib/bracket-close-jump",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Moves the cursor behind the closing bracket next to it",
   "keywords": [],
   "activationCommands": {
