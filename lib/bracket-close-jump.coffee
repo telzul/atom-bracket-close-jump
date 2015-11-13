@@ -10,6 +10,8 @@ module.exports = BracketCloseJump =
 
     # Register command that toggles this view
     @subscriptions.add atom.commands.add 'atom-text-editor', 'bracket-close-jump:trigger': (event) ->
+      # first let snippets do its job, fixes #1
+      atom.commands.dispatch(atom.views.getView(atom.workspace), "snippets:next-tab-stop");
       if bracket_close_jump.cursor_in_front_of_closing_bracket()
         bracket_close_jump.move()
       else
