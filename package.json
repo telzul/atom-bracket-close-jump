@@ -8,7 +8,7 @@
 		"atom-workspace": "bracket-close-jump:trigger"
 	},
 	"configSchema": {
-		"autocompleteCharacters": {
+		"jumpCharacters": {
 			"description": "Recognized Jumpable Characters",
 			"type": "array",
 			"default": [
